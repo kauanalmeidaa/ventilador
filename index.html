@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/Fan.png" type="image/x-icon">
+    <title>Ventilador</title>
+</head>
+<body>
+    
+    <div class="main">
+        <img id="img" src="./img/Fan.png" alt="helice"> <br> <br> <br>
+        <button onclick="myfunoff()">OFF</button>
+        <button onclick="myfun2()">1</button>
+        <button onclick="myfun3()">2</button>
+        <button onclick="myfun4()">3</button>
+    </div>
+
+    <audio id="myAudio" preload="auto">
+        <source src="./audio/som-do-ventilador-ligando.mp3" type="audio/mpeg">
+      </audio>
+
+<script src="script.js"></script>
+</body>
+</html>
